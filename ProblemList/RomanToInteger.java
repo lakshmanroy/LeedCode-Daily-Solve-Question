@@ -17,7 +17,7 @@ public class RomanToInteger {
         for (int i = 0; i < s.length(); i++) {
             int curValue = m.get(s.charAt(i));
             if (curValue > prevValue) {
-                total += curValue - 2 * prevValue;
+                total += curValue - 2 * prevValue;  
             } else {
                 total += curValue;
             }
