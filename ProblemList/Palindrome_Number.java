@@ -1,35 +1,20 @@
 package ProblemList;
 
 public class Palindrome_Number {
-    public boolean isPalindrome(int x) {
-        if (x == 0) {
-            return true;
+    public static boolean isPalindrome(int x) {
+        String s = String.valueOf(x);
+        int n = s.length();
+        for (int i = 0; i < n / 2; i++) {
+            if (s.charAt(i) != s.charAt(n - i - 1)) {
+                return false;
+            }
         }
-        if (x < 0 || x % 10 == 0) {
-            return false;
-        }
-        int temp = x;
-        int rev = 0;
-        while (temp != 0) {
-            int rem = temp % 10;
-            temp = temp / 10;
-            rev = rev * 10 + rem;
-        }
-        return x == rev;
+        return true;
     }
 
     public static void main(String[] args) {
         int x = 121;
 
-        Palindrome_Number obj = new Palindrome_Number();
-        boolean result = obj.isPalindrome(x);
-
-        if (result) {
-            System.out.println(x + " is a palindrome.");
-        } else {
-            System.out.println(x + " is not a palindrome.");
-        }
-
+        System.out.println(isPalindrome(x));
     }
-
 }
