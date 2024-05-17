@@ -1,4 +1,6 @@
-package ProblemList;
+// package ProblemList;
+
+// // package ProblemList;
 
 public class Palindrome_Number {
     public static boolean isPalindrome(int x) {
