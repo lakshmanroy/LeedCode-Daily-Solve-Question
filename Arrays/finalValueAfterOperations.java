@@ -1,5 +1,3 @@
-// package Arrays;
-
 public class finalValueAfterOperations {
     public static int finalOperation(String str[]) {
         int res = 0;
