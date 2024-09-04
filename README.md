@@ -1,2 +1,2 @@
-# LeedCode Daily Solve Question
+# LeedCode Daily Solve Question.
  
