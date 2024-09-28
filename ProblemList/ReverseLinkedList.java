@@ -66,7 +66,6 @@ public class ReverseLinkedList {
     ll.print();
 
     ll.reverseList();
-    ll.print();
-      
+    ll.print();   
   }
 }
