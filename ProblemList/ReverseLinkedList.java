@@ -63,6 +63,7 @@ public class ReverseLinkedList {
     ll.addFirst(1);
     ll.addLast(3);
     ll.addLast(4);
+    ll.addLast(5);
     ll.print();
 
     ll.reverseList();
