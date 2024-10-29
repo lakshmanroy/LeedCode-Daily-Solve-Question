@@ -83,9 +83,9 @@ public class RemoveLinkedListElement {
         System.out.println("Original List:");
         ll.print();
 
-        int target = 6;
-        ll.removeElements(target);
-        System.out.println("List after removing " + target + ":");
+        int val = 6;
+        ll.removeElements(val);
+        System.out.println("List after removing " + val + ":");
         ll.print();
     }
 }
